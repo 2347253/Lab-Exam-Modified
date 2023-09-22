@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Learn-Well</title>
+</head>
+<body>
+    <br>
+    <header>
+        <div class="navbar-new">
+            <a href="index.html">Home</a>
+            <a href="#Articles1">Articles</a>
+            <a href="login.html">Sign Up</a>
+            <a href="profile.html">Profile</a>
+            <div class="search-container">
+                <form action="#">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+                <img class="logo" src="learnenglish.png" alt="logo">
+    </header>
+
+    <div class="hero-container">
+        <div class="hero-text">
+            <h2>"LEARN-WELL" </h2>
+            <hr>
+            <p>Articles at your fingertips</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="sidebar">
+        <h4>Popular articles Right Now!</h4>
+        <a href="a2.html"><div class="item">
+            Internet Freedom
+        </div></a>
+        <a href="a1.html"><div class="item">
+            Stuxnet
+        </div></a>
+        <a href="a4.html"><div class="item">
+            Cryptography
+        </div></a>
+
+        <h4>Recent Comments</h4>
+        <div class="comment">
+            <p><strong>Jane Smith:</strong> Lorem ipsum comment...</p>
+        </div>
+        <div class="comment">
+            <p><strong>Bob Johnson:</strong> Another comment here.</p>
+        </div>
+
+        <form class="nform">
+            <h4>Subscribe!</h4>
+            <label for="username">Name:</label>
+            <input type="text" name="username" size='15' placeholder="Enter"><br>
+            <label for="EMAIL">Email:</label>
+            <input type="email" name="EMAIL" size='17' placeholder="Enter">
+            <br><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+    <div class="flexbox-container" id="Articles1">
+
+        <div class="box box1">
+            <img class='mag' src="a1.jpg">
+            <h3>Stuxnet: The World's First Cyber... Boomerang?</h3>
+            In June 2012, two years after the initial discovery of the Stuxnet worm,1 an excerpt from David Sanger's then soon to be released book entitled Confront and Conceal was published in the New York Times.2 This piece, purportedly based on the testimony...
+           <a href="a1.html"><button class="btn btn-info">Read More?</button></a>
+        </div>
+        <div class="box box2">
+            <img class='mag' src="a2.png">
+            <h3>Internet Freedom: Rhetoric Versus Reality</h3>
+            In the last few years the Internet has borne witness to and facilitated a great deal of social and societal change. From Hilary Clinton's positive 2010 address; ‘Remarks on Internet Freedom', to the Tunisian and Egyptian revolutions that showcased...
+            <a href="a2.html"><button class="btn btn-info">Read More?</button></a>
+
+        </div>
+        <div class="box box3">
+            <img class='mag' src="a3.jpg">
+            <h3>Defending the Cyber Realm</h3>
+            here is a widespread belief that as societies and governments become increasingly reliant upon information technology, they in turn are becoming more vulnerable to a whole range of cyber-threats.1 Whether these dangers are capable of generating...           
+             <a href="a3.html"><button class="btn btn-info">Read More?</button></a>
+
+        </div>
+        <div class="box box4">
+            <img class='mag' src="a4.jpg">
+            <h3>A Brief History of Cryptography</h3>
+            The earliest form of cryptography was the simple writing of a message, as most people could not read (New World, 2007). In fact, the very word cryptography comes from the Greek words kryptos and graphein, which mean hidden and writing, respectively...
+            <a href="a4.html"><button class="btn btn-info">Read More?</button></a>
+
+        </div>
+
+    </div>
+<br>
+    <footer>
+        <div class="footer-info">
+            Learn Well copyrights.©
+            <a href="login.html" style="margin:45px;">Login to site?</a>
+        </div>
+    </footer>
+    <br>    
+</body>
+</html>
